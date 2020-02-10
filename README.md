@@ -4,7 +4,7 @@
 2. Python Basics
 3. Python Fundamentals
 4. Data Structures
-5. classes and methods 
+5. Object-Oriented Programming with Python
 6. Functional Programming with Python
 7. Lambdas
 8. Decorators

@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
+
+
+https://www.geeksforgeeks.org/dunder-magic-methods-python/
+https://www.geeksforgeeks.org/getter-and-setter-in-python/
