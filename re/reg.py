@@ -33,6 +33,20 @@ samir s number is 475-313-7851
 
 ibrahim 475-313-3851
 
+mat 
+cat 
+sat 
+nat
+
+Mr mohamed 
+Mr. sami
+Mrs Saadi
+Mr. T
+
+
+saadianass@gmail.com
+tasif10-hamada@hot.com
+salima.mini@edu-ti.fr
 
 '''
 # search for patterns
@@ -53,9 +67,37 @@ print("--------------------")
 pattern = re.compile(r"[^b]at")# not started with a b
 
 
+pattern = re.compile(r"\d{3}.\d{3}.\d{4}") # to not repeat /d/d/d
+
+
+pattern = re.compile(r"Mr\.?\s[A-Za-z]\w+")# start with mr , is there any point ,
+# follower with a space , folowed by word with + than caracter
+
+
+
+pattern = re.compile(r"Mr\.?\s[A-Za-z]\w?")# start with mr , is there any point ,
+# follower with a space , folowed by word with 1 caracter
+
+
+
+
+
+pattern = re.compile(r"M(r|rs)\.?\s[A-Za-z]\w*")
+
+# get emails
+pattern = re.compile(r"[a-zA-Z.0-9-]+@[a-zA-Z-]+\.(com|fr)") # caracter oula bezaaf lifihoum douk shorouuut 
+
+
+
+
+
 matches = pattern.finditer(text)
 
 for match in matches:
     print(match)
+
+
+
+
 
 
