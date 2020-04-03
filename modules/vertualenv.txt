@@ -1,0 +1,54 @@
+A virtual environment is a tool that helps to keep dependencies
+required by different projects separate by creating isolated
+python virtual environments for them. This is one of the most 
+important tools that most of the Python developers use.
+
+#HOw to  install
+pip install vertaul env
+
+#Create a new vertual env 
+vertualenv name_env
+#access to the env 
+source name_env/bin/activate
+
+# you can use 
+
+which python to see which python env y are using 
+
+
+#all instaled packages
+
+pip list
+
+# installed in the local env
+ pip freeze --local
+
+you can export them by 
+
+
+pip freeze --local > requirements.txt so u can use them later 
+
+
+# get out from python env to gloval env 
+
+deactivate 
+
+# delete env
+
+rm -rf name_env
+
+# to create an enbv with a specific python version 
+vertualenv -p python_version_path name_env
+
+# install from a requirements file 
+
+pip install -r requirements_file_path
+
+
+
+# seprate env from project source 
+when you tap ls you should have 
+
+env_folder , project files ,requirements ....
+
+
